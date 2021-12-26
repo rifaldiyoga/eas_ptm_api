@@ -24,7 +24,7 @@ class CreateMahasiswasTable extends Migration
             $table->text("prodi");
             $table->text("fakultas");
             $table->double("ipk");
-            $table->integer("dosen_wali");
+            $table->text("dosen_wali");
             $table->text("foto")->nullable();
             $table->timestamps();
         });
